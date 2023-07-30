@@ -1,0 +1,10 @@
+<div
+  class="mx-auto max-w-[1280px] w-full grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+>
+  <app-game-card
+    *ngFor="let gamesito of gameList"
+    [game]="gamesito"
+    type="{{ cardType }}"
+  >
+  </app-game-card>
+</div>
