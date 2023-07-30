@@ -1,18 +1,20 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, map, tap } from 'rxjs';
+import { map, tap } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class GamesService {
+  //url y token (api key)
   private baseUrl = 'https://api.rawg.io/api';
   private token: String = '58b51566c19944c1ac8a65cdd3b75d2a';
 
   // Inyecto el HttpClient con sus metodos
   constructor(private httpClient: HttpClient) {}
 
-  getAllGames(page = 10) {
+  //peticiones API
+  getAllGames(page = 12) {
     return (
       this.httpClient
         .get<any>(`${this.baseUrl}/games?key=${this.token}&page_size=${page}`)
