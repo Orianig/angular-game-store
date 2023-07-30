@@ -1,13 +1,20 @@
-<a href="#" class="group">
+<a
+  href="#"
+  class="group mx-12 md:mx-0 mb-4 bg-gradient-to-br from-secondary-100 via-secondary-100 to-secondary-200 block rounded-3xl"
+>
   <div
-    class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
+    class="bg-secondary-100 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-t-3xl bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
   >
     <img
       src="{{ game.background_image }}"
-      alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
-      class="h-48 w-96 object-fill object-center group-hover:opacity-75"
+      alt="games pictures"
+      class="h-48 w-96 object-fill object-center group-hover:opacity-75 rounded-t-3xl"
     />
   </div>
-  <h3 class="mt-4 text-sm text-gray-700">{{ game.released }}</h3>
-  <p class="mt-1 text-lg font-medium text-gray-900">{{ game.name }}</p>
+  <p class="mt-2 ml-2 font-mulish text-sm text-secondary-300">
+    {{ game.released }}
+  </p>
+  <p class="mt-1 ml-6 p-2 font-mulish text-lg font-semibold text-stone-300">
+    {{ game.name }}
+  </p>
 </a>
