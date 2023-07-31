@@ -11,7 +11,6 @@ import { CardComponent } from './pages/games/components/card/card.component';
 import { NavbarComponent } from './Shared/navbar/navbar.component';
 import { CarouselComponent } from './pages/games/components/carousel/carousel.component';
 
-import { SearchComponent } from './pages/games/components/search/search.component';
 import { FooterComponent } from './Shared/footer/footer.component';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { FooterComponent } from './Shared/footer/footer.component';
     NavbarComponent,
     CarouselComponent,
     FooterComponent,
-    SearchComponent,
   ],
   imports: [
     BrowserModule,
