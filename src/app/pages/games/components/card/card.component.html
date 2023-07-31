@@ -1,16 +1,12 @@
 <a
   href="#"
-  class="group mx-12 md:mx-0 mb-4 bg-gradient-to-br from-secondary-100 via-secondary-100 to-secondary-200 block rounded-3xl"
+  class="shadow-xl shadow-indigo-500/50 group shadow-md mx-12 md:mx-0 mb-4 bg-gradient-to-br from-secondary-100 via-secondary-100 to-secondary-200 block rounded-3xl"
 >
-  <div
-    class="bg-secondary-100 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-t-3xl bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
-  >
-    <img
-      src="{{ game.background_image }}"
-      alt="games pictures"
-      class="h-48 w-96 object-fill object-center group-hover:opacity-75 rounded-t-3xl"
-    />
-  </div>
+  <img
+    src="{{ game.background_image }}"
+    alt="games pictures"
+    class="h-48 w-full object-fill object-center group-hover:opacity-75 rounded-t-3xl"
+  />
   <p class="mt-2 ml-2 font-mulish text-sm text-secondary-300">
     {{ game.released }}
   </p>

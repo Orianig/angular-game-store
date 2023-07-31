@@ -25,6 +25,13 @@ export class GamesService {
     );
   }
 
+  searchGames(searchTerm: string) {
+    return this.httpClient
+      .get<any>(`${this.baseUrl}/games?key=${this.token}&search=${searchTerm}`)
+      .pipe(tap((data) => console.log(data)))
+      .pipe(map((data) => data.results));
+  }
+
   createGame(game: any) {
     return this.httpClient.post(
       `${this.baseUrl}/games?key=${this.token}`,
