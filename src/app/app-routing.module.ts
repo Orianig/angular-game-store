@@ -4,7 +4,7 @@ import { GamesComponent } from './pages/games/games.component';
 
 const routes: Routes = [
   //enrutado hacia las paginas
-  { path: 'games', component: GamesComponent },
+  { path: '', component: GamesComponent },
 ];
 
 @NgModule({
