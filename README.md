@@ -14,7 +14,7 @@ Por ultimo, se hizo considerando un diseño responsive en todo momento.
 ![Imagen general de la web](https://github.com/Orianig/angular-game-store/blob/main/src/assets/images/Captura-readme.JPG)
 
 ### Interfaz de la web
-![Imagen general de la web](https://github.com/Orianig/angular-game-store/blob/main/src/assets/images/theme-color-ordenador.gif)
+![Imagen general de la web](https://github.com/Orianig/angular-game-store/blob/main/src/assets/images/game-store-ordenador.gif)
 
 ### Interfaz de la web en movil
-![Imagen general de la web](https://github.com/Orianig/angular-game-store/blob/main/src/assets/images/theme-color-movil.gif)
+![Imagen general de la web](https://github.com/Orianig/angular-game-store/blob/main/src/assets/images/game-store-movil.gif)
