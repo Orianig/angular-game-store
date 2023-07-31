@@ -1,0 +1,8 @@
+{
+  "projectName": "game-store",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "b8003ad1"
+}
