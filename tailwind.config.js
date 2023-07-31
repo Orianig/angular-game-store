@@ -2,15 +2,16 @@
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
     extend: {
       colors:{
-        primary:'#131220',
+        primary:'#202334',
         secondary:{
             100: '#1C1A2E',
-            200: '#014F62',
-            300: '#62A6AF',
+            200: '#78ae15',
+            300: '#a9ba86',
         }
       },
       fontFamily: {
@@ -18,6 +19,6 @@ module.exports = {
     },
     },
   },
-  plugins: [
-  ],
+  darkMode: "class",
+  plugins: [require("tw-elements/dist/plugin.cjs")]
 }
